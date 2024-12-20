@@ -1,0 +1,4 @@
+name: JoinQuitPlugin
+version: '1.0'
+main: joinQuitPlugin.JoinQuitPlugin
+api-version: '1.21'
