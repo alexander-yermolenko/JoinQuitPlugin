@@ -11,9 +11,12 @@ public final class JoinQuitPlugin extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("JoinQuitPlugin is running!");
 
+        // Config setup
+        saveDefaultConfig();
+
         // Listeners
-        getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
-        getServer().getPluginManager().registerEvents(new PlayerQuitListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerQuitListener(this), this);
 
     }
 

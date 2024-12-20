@@ -1,0 +1,4 @@
+messages:
+  first-welcome-message: "&9Welcome to the server for the first time, &o{player} &9!\n&9We hope you will like it!"
+  second-welcome-message: "&aWelcome back to the server, &e&o{player}&a! We missed you!"
+  quit-message: "&e&o{player}&a has left, we hope you will return to us soon!"

@@ -1,4 +1,9 @@
 name: JoinQuitPlugin
-version: '1.0'
+version: '1.1'
 main: joinQuitPlugin.JoinQuitPlugin
 api-version: '1.21'
+author: Alexander Yermolenko
+description: A plugin that welcomes players when they join and tracks when they leave.
+website-github: https://github.com/alexander-yermolenko
+website-LinkedIn: https://www.linkedin.com/in/alexander-yermolenko-0416542a3
+website-funpay: https://funpay.com/en/users/8648279
